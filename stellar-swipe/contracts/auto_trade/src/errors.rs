@@ -12,6 +12,11 @@ pub enum AutoTradeError {
     DailyTradeLimitExceeded = 7,
     PositionLimitExceeded = 8,
     StopLossTriggered = 9,
+feature/dca-strategy
+    DcaStrategyNotFound = 10,
+    DcaStrategyInactive = 11,
+    DcaEndTimeReached = 12,
+=======
     TradingPaused = 10,
 
     StrategyNotFound = 11,
@@ -35,4 +40,5 @@ pub enum AutoTradeError {
     PairNotCointegrated = 26,
     InvalidPairsConfig = 27,
  
+ main
 }
